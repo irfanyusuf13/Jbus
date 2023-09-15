@@ -20,11 +20,35 @@ public Price (double price, int discount){
 
 public Price (double price, double rebate){
     this.price = price;
-    this.rebate = discount;
+    this.rebate = rebate;
     this.discount = 0;
 }
 
+
+
+
+private double getDiscountedPrice(){
+   if (this.discount >= 100){
+     return 0;  
+   }
+    else{
+        return this.price - this.discount * (this.price);
+    }    
+  }
+  
+private double getRebatedPrice(){
+    if(this.rebate>this.price){
+    return 0;
 }
+    else{ 
+    return this.price - this.rebate;
+}
+}
+}
+
+
+
+
 
 
 

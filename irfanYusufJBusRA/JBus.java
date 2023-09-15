@@ -3,23 +3,30 @@ package irfanYusufJBusRA;
 public class JBus
 {
     public static void main (String[] args){
+        
+        Bus testBus = createBus();
+        System.out.println(testBus.name);
+        System.out.println(testBus.facility);
+        System.out.println(testBus.price.price);
+        System.out.println(testBus.capacity);
+        
         int getBusId = 0;
         String getBusName = "Bus";
         boolean isDiscount = true;
         int beforeDiscount= 1000;
         int afterDiscount= 900;
-        int price = 1000;
         float discountPercentage= 10.0f; 
         int discountedPrice= 900;
         int numberOfSeat=2;
-            
-        
+        int price =1000;
+
+
         
         System.out.println("Bus ID: " + getBusId);
         System.out.println("Bus Name: " + getBusName);
         System.out.println("" + isDiscount);
         System.out.println("Harga: " + price);
-        System.out.println("Diskon: " + getDiscountPercentage (beforeDiscount,afterDiscount));
+        System.out.println("Diskon: " + getDiscountPercentage ( beforeDiscount, afterDiscount));
         System.out.println("harga sesudah didiskon: " + getDiscountedPrice (price,discountPercentage));
         System.out.println("harga asli: " + getOriginalPrice(discountedPrice, discountPercentage));
         System.out.println("admin fee: " + getAdminFeePercentage () );
@@ -90,6 +97,12 @@ public static int getTotalPrice(int price,  int numberOfSeat ){
     float adminFee = (price * numberOfSeat) * 0.05f;
     totalPrice= (price * numberOfSeat) + adminFee;
     return (int)totalPrice;
+}
+
+public static Bus createBus(){
+    Price price = new Price (75000, 5);
+    Bus bus = new Bus ("Netlab Bus", Facility.LUNCH, price,25);
+    return bus;
 }
 }
 

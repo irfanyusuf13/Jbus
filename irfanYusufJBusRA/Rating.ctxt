@@ -2,4 +2,12 @@
 comment0.target=Rating
 comment1.params=
 comment1.target=Rating()
-numComments=2
+comment2.params=rating
+comment2.target=void\ insert(int)
+comment3.params=
+comment3.target=double\ getAverage()
+comment4.params=
+comment4.target=long\ getCount()
+comment5.params=
+comment5.target=long\ getTotal()
+numComments=6
