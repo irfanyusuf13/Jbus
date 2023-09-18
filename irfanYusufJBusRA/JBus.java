@@ -4,39 +4,12 @@ public class JBus
 {
     public static void main (String[] args){
         
-        Bus testBus = createBus();
+       /* Bus testBus = createBus();
         System.out.println(testBus.name);
         System.out.println(testBus.facility);
         System.out.println(testBus.price.price);
-        System.out.println(testBus.capacity);
-        
-        int getBusId = 0;
-        String getBusName = "Bus";
-        boolean isDiscount = true;
-        int beforeDiscount= 1000;
-        int afterDiscount= 900;
-        float discountPercentage= 10.0f; 
-        int discountedPrice= 900;
-        int numberOfSeat=2;
-        int price =1000;
-
-
-        
-        System.out.println("Bus ID: " + getBusId);
-        System.out.println("Bus Name: " + getBusName);
-        System.out.println("" + isDiscount);
-        System.out.println("Harga: " + price);
-        System.out.println("Diskon: " + getDiscountPercentage ( beforeDiscount, afterDiscount));
-        System.out.println("harga sesudah didiskon: " + getDiscountedPrice (price,discountPercentage));
-        System.out.println("harga asli: " + getOriginalPrice(discountedPrice, discountPercentage));
-        System.out.println("admin fee: " + getAdminFeePercentage () );
-        System.out.println("harga biaya admin: " + getAdminFee (price));
-        System.out.println("Total Harga: " + getTotalPrice (price,numberOfSeat) );
-        
-        
-        
-        
-        
+        System.out.println(testBus.capacity);*/
+    
     }
     
 
