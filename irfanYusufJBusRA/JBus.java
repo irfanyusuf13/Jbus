@@ -74,7 +74,7 @@ public static int getTotalPrice(int price,  int numberOfSeat ){
 
 public static Bus createBus(){
     Price price = new Price (75000, 5);
-    Bus bus = new Bus ("Netlab Bus", Facility.LUNCH, price,25);
+    Bus bus = new Bus (5000,"Netlab Bus", Facility.LUNCH, price,25);
     return bus;
 }
 }

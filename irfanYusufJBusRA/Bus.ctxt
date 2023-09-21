@@ -1,5 +1,5 @@
 #BlueJ class context
 comment0.target=Bus
-comment1.params=name\ facility\ price\ capacity
-comment1.target=Bus(java.lang.String,\ Facility,\ Price,\ int)
+comment1.params=id\ name\ facility\ price\ capacity
+comment1.target=Bus(int,\ java.lang.String,\ Facility,\ Price,\ int)
 numComments=2

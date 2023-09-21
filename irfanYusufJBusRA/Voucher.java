@@ -1,7 +1,6 @@
 package irfanYusufJBusRA;
 
-public class Voucher
-{
+public class Voucher extends Serializable {
     public String name;
     private boolean used;
     public double minimum;
@@ -10,7 +9,8 @@ public class Voucher
     public Type type;
 
 
-public Voucher (String name, int code , Type type , double minimum , double cut){
+public Voucher (int id, String name, int code , Type type , double minimum , double cut){
+    super(id);
     this.name = name;
     this.code = code;
     this.type = type;
@@ -36,12 +36,23 @@ public double apply (Price price){
     this.used = true;
     
     if(this.type == Type.DISCOUNT){
+        if (this.cut >= 100){
+           this.cut = 100;
+           return 0;
+        } 
+        else{
         applyPrice = (price.price * (1 -(this.cut / 100)));
         return applyPrice;
     }
+    }
     else {
+       if (price.price < this.cut){
+           return 0;
+       }
+       else{
        applyPrice = price.price - cut; 
        return applyPrice;
+    }
     }
     }
 }
