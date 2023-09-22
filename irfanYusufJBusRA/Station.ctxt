@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Station
+comment1.params=id\ stationName\ city
+comment1.target=Station(int,\ java.lang.String,\ City)
+comment2.params=
+comment2.target=java.lang.String\ print()
+numComments=3
