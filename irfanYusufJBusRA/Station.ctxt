@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Station
-comment1.params=id\ stationName\ city
-comment1.target=Station(int,\ java.lang.String,\ City)
+comment1.params=id\ stationName\ city\ address
+comment1.target=Station(int,\ java.lang.String,\ City,\ java.lang.String)
 comment2.params=
-comment2.target=java.lang.String\ print()
+comment2.target=java.lang.String\ toString()
 numComments=3

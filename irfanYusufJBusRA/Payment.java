@@ -16,7 +16,7 @@ public Payment(int id , Account buyer , Renter renter, String time , int busId ,
     this.departureDate = departureDate;
     this.busSeat = busSeat;
 }
-public String print(){
+public String toString(){
     return "Id :" + super.id  + " Buyer Id: " + buyerId + " Renter Id: " + renterId  + " time: " + time +  " bus Id :" +busId + " departure date : " + departureDate + " bus seat : " +busSeat;
 }
 public int getBusId(){

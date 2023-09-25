@@ -26,7 +26,9 @@ public long getCount (){
 public long getTotal(){
     return this.total;
 }
-
+public String toString(){
+    return "Count : "+ this.count + " Total : " + this.total;
+}
 
 
 }

@@ -5,5 +5,5 @@ comment1.target=Invoice(int,\ int,\ int,\ java.lang.String)
 comment2.params=id\ buyer\ renter\ time
 comment2.target=Invoice(int,\ Account,\ Renter,\ java.lang.String)
 comment3.params=
-comment3.target=java.lang.String\ print()
+comment3.target=java.lang.String\ toString()
 numComments=4

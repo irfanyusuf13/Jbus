@@ -43,6 +43,9 @@ private double getRebatedPrice(){
 }
 }
 */
+public String toString(){
+    return "Price : "+ this.price +" Rebate : "+ this.rebate;
+}
 }
 
 
