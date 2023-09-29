@@ -1,6 +1,6 @@
 package irfanYusufJBusRA;
 
-public class Voucher extends Serializable {
+public class Voucher extends Serializable implements FileParser{
     public String name;
     private boolean used;
     public double minimum;
@@ -55,5 +55,13 @@ public double apply (Price price){
     }
     }
     }
+
+ public Object write(){
+     return null;
+ }
+
+ public boolean read(String content){
+     return false;
+ }
 }
 
