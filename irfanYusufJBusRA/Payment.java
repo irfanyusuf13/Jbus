@@ -2,23 +2,24 @@ package irfanYusufJBusRA;
 
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
+import java.sql.Timestamp;
 
 public class Payment extends Invoice{
     private int busId;
-    public Calendar departureDate;
+    public Timestamp departureDate;
     public String busSeat;
     
     
-public Payment(int id , int buyerId , int renterId , int busId ,   String busSeat){
+public Payment(int id , int buyerId , int renterId , int busId ,  String busSeat , Timestamp departureDate){
     super(id, buyerId , renterId);
     this.busId = busId;
-    departureDate.add(Calendar.DATE, 2);
+    this.departureDate = departureDate;
     this.busSeat = busSeat;
 }
-public Payment(int id , Account buyer , Renter renter,  int busId ,  String busSeat) {
+public Payment(int id , Account buyer , Renter renter,  int busId ,  String busSeat , Timestamp departureDate ) {
     super(id , buyer , renter);
     this.busId = busId;
-    departureDate.add(Calendar.DATE, 2);
+    this.departureDate = departureDate;
     this.busSeat = busSeat; 
 }
 public String getDepartureInfo(){
@@ -30,6 +31,24 @@ public int getBusId(){
 }
 
 public String getTime(){
-    return new SimpleDateFormat("dd/MMMM/yyyy hh:mm:s").format(this.departureDate.getTime());
+    return new SimpleDateFormat("dd/MMMM/yyyy hh:mm:s").format(super.time.getTime());
+}
+public static boolean isAvailable(Timestamp departureSchedule, String seat, Bus bus) {
+        for (Schedule s: bus.schedules) {
+            if (s.departureSchedule.equals(departureSchedule)) return s.isSeatAvailable(seat);
+        }
+        return false;
+    }
+public static boolean makeBooking(Timestamp departureSchedule, String seat, Bus bus){
+    if(isAvailable(departureSchedule, seat , bus)){
+        for (Schedule s : bus.schedules){
+            if(s.departureSchedule.equals(departureSchedule)){
+                s.bookSeat(seat);
+                return true;  
+            }
+        }
+    }
+    return false;
 }
 }
+

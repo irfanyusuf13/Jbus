@@ -1,8 +1,9 @@
-package irfanYusufJBusRA;
+    package irfanYusufJBusRA;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.sql.Timestamp;
 
 public class Bus extends Serializable implements FileParser{
     public String name;
@@ -41,11 +42,8 @@ public class Bus extends Serializable implements FileParser{
      return false;
  }
  
- public void addSchedule (Calendar calendar){
-     this.schedules.add (new Schedule (calendar , capacity));
- }
- public void printSchedule (Schedule schedule){
-     System.out.println ("Tanggal keberangkatan : ");
-     System.out.println ("Daftar Kursi  : ");
- }
+public void addSchedule(Timestamp schedule) { 
+    schedules.add(new Schedule(schedule, this.capacity));
+    }
+
 }

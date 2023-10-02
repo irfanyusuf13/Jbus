@@ -1,13 +1,14 @@
 package irfanYusufJBusRA;
 
+import java.sql.Timestamp;
 import java.util.Calendar;
 
 public class Invoice extends Serializable
 {
- public Calendar time;
  public int buyerId;
  public int renterId;
  public BusRating rating;
+ public Timestamp time;
  public PaymentStatus status;
 public enum BusRating{
      NONE,
@@ -25,7 +26,7 @@ public enum PaymentStatus{
      super(id);
      this.buyerId = buyerId;
      this.renterId = renterId;
-     this.time = Calendar.getInstance();
+     this.time = new Timestamp(System.currentTimeMillis());
      this.rating = BusRating.NONE;
      this.status = PaymentStatus.WAITING;
  }
@@ -33,7 +34,7 @@ public enum PaymentStatus{
      super(id);
      this.buyerId = buyer.id;
      this.renterId = renter.id;
-     this.time = Calendar.getInstance();
+     this.time = new Timestamp(System.currentTimeMillis());
      this.rating = BusRating.NONE;
      this.status = PaymentStatus.WAITING;
  }

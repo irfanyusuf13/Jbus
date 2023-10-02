@@ -1,7 +1,13 @@
 #BlueJ class context
 comment0.target=Schedule
 comment1.params=departureSchedule\ numberOfSeats
-comment1.target=Schedule(java.util.Calendar,\ int)
+comment1.target=Schedule(java.sql.Timestamp,\ int)
 comment2.params=numberOfSeats
 comment2.target=void\ initializeSeatAvailability(int)
-numComments=3
+comment3.params=
+comment3.target=void\ printSchedule()
+comment4.params=seat
+comment4.target=boolean\ isSeatAvailable(java.lang.String)
+comment5.params=seat
+comment5.target=void\ bookSeat(java.lang.String)
+numComments=6
