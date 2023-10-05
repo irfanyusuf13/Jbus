@@ -47,12 +47,3 @@ public String toString(){
     return "Price : "+ this.price +" Rebate : "+ this.rebate;
 }
 }
-
-
-
-
-
-
-
-
-

@@ -64,4 +64,3 @@ public double apply (Price price){
      return false;
  }
 }
-
