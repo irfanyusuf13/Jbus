@@ -18,7 +18,7 @@ public class Bus extends Serializable implements FileParser{
     
     
 public Bus(int id, String name, Facility facility, Price price, int capacity, BusType busType, City city , Station departure , Station arrival){
-    super(id);
+    super();
     this.name = name;
     this.facility = facility;
     this.price = price;

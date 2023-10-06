@@ -6,7 +6,7 @@ public class Review extends Serializable
     public String desc;
     
 public Review (int id , String date , String desc){
-    super(id);
+    super();
     this.date = date;
     this.desc = desc;
 }
