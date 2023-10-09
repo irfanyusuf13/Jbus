@@ -8,10 +8,16 @@ public class Serializable {
 
     protected Serializable()
     {
-        Class<?> className = this.getClass();
-        int lastId = getLastAssignedId(className);
-        this.id = lastId + 1;
-        mapCounter.put(className, this.id);
+
+        if (mapCounter == null){
+            mapCounter = new HashMap<Class<?>, Integer>();
+            this.id = 0;
+        }
+        else {
+            int counter = mapCounter.getOrDefault(this.getClass(), 0);
+            mapCounter.put(this.getClass(), counter++);
+            this.id = counter;
+        }
     }
 
     public static Integer getLastAssignedId(Class<?> className){
@@ -20,7 +26,7 @@ public class Serializable {
 
     public static Integer setLastAssignedId(Class <?> className, int nilai) {
         mapCounter.put(className, nilai);
-        return nilai;
+        return mapCounter.replace(className, nilai);
     }
 
     public boolean equals(Serializable obj) {

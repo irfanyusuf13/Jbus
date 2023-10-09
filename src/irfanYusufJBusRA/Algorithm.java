@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 
+
 public class Algorithm {
 
     private Algorithm() {
@@ -152,4 +153,41 @@ public class Algorithm {
         return null;
 
     }
+
+    public static <T> List <T> paginate(T[] array, int page , int pageSize, Predicate<T> pred) {
+        final Iterator<T> it = Arrays.stream(array).iterator();
+        return paginate(it, page, pageSize, pred);
+    }
+    public static <T> List <T> paginate (Iterable<T> iterable, int page , int pageSize, Predicate<T> pred) {
+        final Iterator<T> it = iterable.iterator();
+        return paginate(it, page, pageSize, pred);
+    }
+    public static <T> List <T> paginate (Iterator<T> iterator,int page , int pageSize, Predicate<T> pred) {
+        List<T> hasilList = new ArrayList<>();
+        int curPage = 0;
+
+
+        while (iterator.hasNext()) {
+            T current = iterator.next();
+            if (pred.predicate(current)) {
+                if (curPage == page) {
+                    hasilList.add(current);
+                    if (hasilList.size() == pageSize) {
+                        return hasilList;
+                    }
+                }
+            }
+            if (!iterator.hasNext()) {
+                return hasilList;
+            }
+
+            if (curPage < page) {
+                curPage++;
+            }
+        }
+        return hasilList;
+    }
+
+
+
 }

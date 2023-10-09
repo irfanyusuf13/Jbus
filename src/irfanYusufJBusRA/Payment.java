@@ -1,8 +1,11 @@
 package irfanYusufJBusRA;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
 import java.sql.Timestamp;
+import java.util.List;
+
 
 public class Payment extends Invoice{
     private int busId;
@@ -33,22 +36,51 @@ public int getBusId(){
 public String getTime(){
     return new SimpleDateFormat("dd/MMMM/yyyy hh:mm:s").format(super.time.getTime());
 }
-public static boolean isAvailable(Timestamp departureSchedule, String seat, Bus bus) {
-        for (Schedule s: bus.schedules) {
-            if (s.departureSchedule.equals(departureSchedule)) return s.isSeatAvailable(seat);
+
+public static Schedule availableSchedule(Timestamp departureSchedule, String seat, Bus bus){
+    for (Schedule jadwal : bus.schedules) {
+        if (jadwal.departureSchedule.equals(departureSchedule) && jadwal.isSeatAvailable(seat)) {
+            return jadwal;
         }
-        return false;
     }
+    return null;
+}
+
+
 public static boolean makeBooking(Timestamp departureSchedule, String seat, Bus bus){
-    if(isAvailable(departureSchedule, seat , bus)){
         for (Schedule s : bus.schedules){
             if(s.departureSchedule.equals(departureSchedule)){
                 s.bookSeat(seat);
-                return true;  
+                return true;
             }
         }
+        return false;
     }
-    return false;
+
+public static boolean makeBooking(Timestamp departureSchedule, List<String> seat, Bus bus){
+    boolean seatBooked = true;
+    for (String seats : seat) {
+        boolean booked = makeBooking(departureSchedule, seats, bus);
+        if (!booked) {
+           seatBooked  = false;
+        }
+    }
+    return seatBooked;
+}
+
+public static Schedule availableSchedule(Timestamp departureSchedule, List<String> seat, Bus bus){
+    List<Schedule> scheduleTersedia = new ArrayList<>();
+    for (String seats : seat) {
+        Schedule schedule = availableSchedule(departureSchedule, seats, bus);
+        if (schedule != null) {
+            scheduleTersedia.add(schedule);
+        }
+    }
+    return (Schedule) scheduleTersedia;
 }
 }
+
+
+
+
 

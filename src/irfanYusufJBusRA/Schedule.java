@@ -8,15 +8,17 @@ public class Schedule
 {
   public Map <String, Boolean > seatAvailability;
   public Timestamp departureSchedule;
-  
-    
+
+
+
     public Schedule(Timestamp departureSchedule , int numberOfSeats){
       this.departureSchedule = departureSchedule;
+
        initializeSeatAvailability (numberOfSeats);
   }
-  
+
     private void  initializeSeatAvailability (int numberOfSeats){
-     this.seatAvailability = new LinkedHashMap<>();   
+     this.seatAvailability = new LinkedHashMap<>();
      for(int  seatNumber = 1 ; seatNumber <= numberOfSeats; seatNumber++){
          String sn =seatNumber <10 ?"0"+seatNumber : ""+seatNumber;
          seatAvailability.put("RA" + seatNumber, true);
@@ -49,9 +51,35 @@ public class Schedule
      public boolean isSeatAvailable(String seat) {
     return seatAvailability.getOrDefault(seat, false);
 }
-    
+
     public void bookSeat (String seat){
           this.seatAvailability.put(seat,false);
     }
+    public boolean isSeatAvailable(List<String> seats) {
+        for (String seat : seats) {
+            if (!seatAvailability.getOrDefault(seat, false)) {
+                return false;
+            }
+        }
+        return true;
     }
+    public void bookSeat (List<String> seat) {
+        for (String seats : seat) {
+            if (seatAvailability.containsKey(seats)) {
+                seatAvailability.put(seats, false);
+            }
+        }
+    }
+
+    public String toString(){
+            long seatTerisi = seatAvailability.values().stream().filter(b -> !b).count();
+            int jumlahSeat = seatAvailability.size();
+            return "Schedule: " + departureSchedule +
+                    "\nOccupied: " + seatTerisi
+                    + "/" + jumlahSeat;
+        }
+    }
+
+
+
 
