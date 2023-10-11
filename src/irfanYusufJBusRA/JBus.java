@@ -1,51 +1,30 @@
 package irfanYusufJBusRA;
 import java.sql.Timestamp;
 import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import com.google.gson.*;
+import com.google.gson.reflect.TypeToken;
 
 public class JBus {
     public static void main(String[] args) {
-        // PT Modul 5
-        // Tes Pagination
-        Bus b = createBus();
-        List<Timestamp> listOfSchedules = new ArrayList<>();
-        listOfSchedules.add(Timestamp.valueOf("2023-7-18 15:00:00"));
-        listOfSchedules.add(Timestamp.valueOf("2023-7-20 12:00:00"));
-        listOfSchedules.add(Timestamp.valueOf("2023-7-22 10:00:00"));
-        listOfSchedules.add(Timestamp.valueOf("2023-7-26 12:00:00"));
+        String filepath = "C:\\College\\Semester 3\\OOP\\OOP Java\\JBus\\data\\station.json";
+        Gson gson = new Gson();
 
-        listOfSchedules.forEach(b::addSchedule);
-        System.out.println("Page 1");
-        Algorithm.paginate(b.schedules, 0, 3, t -> true).forEach(System.out::println);
-        System.out.println("=====================================================");
-        System.out.println("Page 2");
-        Algorithm.paginate(b.schedules, 1, 3, t -> true).forEach(System.out::println);
-        System.out.println("=====================================================");
+        try {
+            BufferedReader buffer = new BufferedReader(new FileReader(filepath));
+            List<Station> stationjson = gson.fromJson(buffer, new TypeToken<List<Station>>() {}.getType());
+            stationjson.forEach(e -> System.out.println(e.toString()));
+            System.out.println();
+            buffer.close();
+        }
 
-        // Tes Booking
-        String msgSuccess = "Booking Success!";
-        String msgFailed = "Booking Failed";
-        // valid date, invalid seat = Booking Failed
-        Timestamp t1 = Timestamp.valueOf("2023-7-19 15:00:00");
-        System.out.println("\nMake booking at July 19, 2023 15:00:00 Seats: RA17 RA18");
-        System.out.println(Payment.makeBooking(t1, List.of("RA17", "RA18"), b)? msgSuccess : msgFailed);
-        // valid date, invalid seat = Booking Failed
-        Timestamp t2 = Timestamp.valueOf("2023-7-18 15:00:00");
-        System.out.println("Make booking at July 18, 2023 15:00:00 Seat RA26");
-        System.out.println(Payment.makeBooking(t2, "RA26", b)? msgSuccess : msgFailed);
-        // valid date, valid seat = Booking Success
-        System.out.println("Make booking at July 18, 2023 15:00:00 Seats: RA07 RA08");
-        System.out.println(Payment.makeBooking(t2, List.of("RA07", "RA08"), b)? msgSuccess : msgFailed);
-        // valid date, valid seat = Booking Success
-        Timestamp t3 = Timestamp.valueOf("2023-7-20 12:00:00");
-        System.out.println("Make booking at July 20, 2023 12:00:00 Seats: RA01 RA02");
-        System.out.println(Payment.makeBooking(t3, List.of("RA01", "RA02"), b)? msgSuccess : msgFailed);
-        // valid date, book the same seat = Booking Failed
-        System.out.println("Make booking at July 20, 2023 12:00:00 Seat RA01");
-        System.out.println(Payment.makeBooking(t3, "RA01", b)? msgSuccess : msgFailed);
-        // check if the data changed
-        System.out.println("\nUpdated Schedule");
-        Algorithm.paginate(b.schedules, 0, 4, t-> true).forEach(System.out::println);
+        catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+
 
     public static Bus createBus() {
         Price price = new Price(750000, 5);

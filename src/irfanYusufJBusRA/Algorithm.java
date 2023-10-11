@@ -166,7 +166,6 @@ public class Algorithm {
         List<T> hasilList = new ArrayList<>();
         int curPage = 0;
 
-
         while (iterator.hasNext()) {
             T current = iterator.next();
             if (pred.predicate(current)) {
