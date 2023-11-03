@@ -1,0 +1,5002 @@
+[
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 0
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 1
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 299173.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 0
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 2
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 3
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 951794.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 1
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 4
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 5
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 645710.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 2
+  },
+  {
+    "name": "Subur Jaya",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 6
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 7
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 409129.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 3
+  },
+  {
+    "name": "Akas Asri",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 8
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 9
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 709951.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 4
+  },
+  {
+    "name": "Maju Jaya",
+    "departure": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 10
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 11
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 830007.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 5
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 12
+    },
+    "arrival": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 13
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 368559.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 6
+  },
+  {
+    "name": "Rosalia Indah",
+    "departure": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 14
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 15
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 602010.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 7
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 16
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 17
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 660808.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 8
+  },
+  {
+    "name": "Blue Star",
+    "departure": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 18
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 19
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 672930.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 9
+  },
+  {
+    "name": "Maju Jaya",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 20
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 21
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 154570.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 10
+  },
+  {
+    "name": "Harapan Jaya",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 22
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 23
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 734222.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 11
+  },
+  {
+    "name": "Primajasa",
+    "departure": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 24
+    },
+    "arrival": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 25
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 640147.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 12
+  },
+  {
+    "name": "Cipaganti",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 26
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 27
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 226717.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 13
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 28
+    },
+    "arrival": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 29
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 580257.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 14
+  },
+  {
+    "name": "Putra Remaja",
+    "departure": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 30
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 31
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 317033.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 15
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 32
+    },
+    "arrival": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 33
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 992515.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 16
+  },
+  {
+    "name": "Akas Asri",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 34
+    },
+    "arrival": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 35
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 576224.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 17
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 36
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 37
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 450272.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 18
+  },
+  {
+    "name": "Eka Cepat",
+    "departure": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 38
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 39
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 247996.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 19
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 40
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 41
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 647065.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 20
+  },
+  {
+    "name": "Harapan Jaya",
+    "departure": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 42
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 43
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 895188.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 21
+  },
+  {
+    "name": "Eka Cepat",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 44
+    },
+    "arrival": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 45
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 799160.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BALI",
+    "schedules": [],
+    "id": 22
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 46
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 47
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 603919.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 23
+  },
+  {
+    "name": "Kramat Djati",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 48
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 49
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 514993.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 24
+  },
+  {
+    "name": "Primajasa",
+    "departure": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 50
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 51
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 155797.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 25
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 52
+    },
+    "arrival": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 53
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 338422.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 26
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 54
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 55
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 249107.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 27
+  },
+  {
+    "name": "Cipaganti",
+    "departure": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 56
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 57
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 883984.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 28
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 58
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 59
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 273760.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 29
+  },
+  {
+    "name": "Blue Star",
+    "departure": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 60
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 61
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 181270.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 30
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 62
+    },
+    "arrival": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 63
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 135925.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 31
+  },
+  {
+    "name": "Kramat Djati",
+    "departure": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 64
+    },
+    "arrival": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 65
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 449596.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BALI",
+    "schedules": [],
+    "id": 32
+  },
+  {
+    "name": "Akas Asri",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 66
+    },
+    "arrival": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 67
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 968148.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 33
+  },
+  {
+    "name": "Harapan Jaya",
+    "departure": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 68
+    },
+    "arrival": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 69
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 924216.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 34
+  },
+  {
+    "name": "Blue Star",
+    "departure": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 70
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 71
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 151279.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 35
+  },
+  {
+    "name": "Primajasa",
+    "departure": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 72
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 73
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 554081.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 36
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 74
+    },
+    "arrival": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 75
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 466537.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 37
+  },
+  {
+    "name": "Harapan Jaya",
+    "departure": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 76
+    },
+    "arrival": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 77
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 874234.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 38
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 78
+    },
+    "arrival": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 79
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 857753.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 39
+  },
+  {
+    "name": "Blue Star",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 80
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 81
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 280454.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 40
+  },
+  {
+    "name": "Harapan Jaya",
+    "departure": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 82
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 83
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 305068.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 41
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 84
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 85
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 739846.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 42
+  },
+  {
+    "name": "Eka Cepat",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 86
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 87
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 515250.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 43
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 88
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 89
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 428002.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 44
+  },
+  {
+    "name": "Maju Jaya",
+    "departure": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 90
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 91
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 316429.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 45
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 92
+    },
+    "arrival": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 93
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 380794.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 46
+  },
+  {
+    "name": "Maju Jaya",
+    "departure": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 94
+    },
+    "arrival": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 95
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 117987.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 47
+  },
+  {
+    "name": "Cipaganti",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 96
+    },
+    "arrival": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 97
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 938663.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 48
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 98
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 99
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 694942.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 49
+  },
+  {
+    "name": "Eka Cepat",
+    "departure": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 100
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 101
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 885480.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 50
+  },
+  {
+    "name": "Maju Jaya",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 102
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 103
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 252904.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 51
+  },
+  {
+    "name": "Nusantara",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 104
+    },
+    "arrival": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 105
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 365559.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 52
+  },
+  {
+    "name": "Kramat Djati",
+    "departure": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 106
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 107
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 600736.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 53
+  },
+  {
+    "name": "Cipaganti",
+    "departure": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 108
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 109
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 717104.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 54
+  },
+  {
+    "name": "Blue Star",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 110
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 111
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 706287.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 55
+  },
+  {
+    "name": "Maju Jaya",
+    "departure": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 112
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 113
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 552259.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 56
+  },
+  {
+    "name": "Harapan Jaya",
+    "departure": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 114
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 115
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 557285.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 57
+  },
+  {
+    "name": "Rosalia Indah",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 116
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 117
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 765600.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 58
+  },
+  {
+    "name": "Putra Remaja",
+    "departure": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 118
+    },
+    "arrival": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 119
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 254384.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 59
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 120
+    },
+    "arrival": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 121
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 857980.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 60
+  },
+  {
+    "name": "Nusantara",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 122
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 123
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 985363.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 61
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 124
+    },
+    "arrival": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 125
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 740539.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 62
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 126
+    },
+    "arrival": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 127
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 655155.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 63
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 128
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 129
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 574233.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 64
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 130
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 131
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 625811.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 65
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 132
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 133
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 931661.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 66
+  },
+  {
+    "name": "Nusantara",
+    "departure": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 134
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 135
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 253485.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 67
+  },
+  {
+    "name": "Kramat Djati",
+    "departure": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 136
+    },
+    "arrival": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 137
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 618187.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 68
+  },
+  {
+    "name": "Akas Asri",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 138
+    },
+    "arrival": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 139
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 160147.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 69
+  },
+  {
+    "name": "Rosalia Indah",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 140
+    },
+    "arrival": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 141
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 753758.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 70
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 142
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 143
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 765059.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 71
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 144
+    },
+    "arrival": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 145
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 577399.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 72
+  },
+  {
+    "name": "Rosalia Indah",
+    "departure": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 146
+    },
+    "arrival": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 147
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 548963.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 73
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 148
+    },
+    "arrival": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 149
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 910954.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 74
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 150
+    },
+    "arrival": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 151
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 169382.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 75
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 152
+    },
+    "arrival": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 153
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 347935.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 76
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 154
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 155
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 651259.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 77
+  },
+  {
+    "name": "Maju Jaya",
+    "departure": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 156
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 157
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 892820.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 78
+  },
+  {
+    "name": "Maju Jaya",
+    "departure": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 158
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 159
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 125201.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 79
+  },
+  {
+    "name": "Eka Cepat",
+    "departure": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 160
+    },
+    "arrival": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 161
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 190737.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 80
+  },
+  {
+    "name": "Cipaganti",
+    "departure": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 162
+    },
+    "arrival": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 163
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 481307.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 81
+  },
+  {
+    "name": "Primajasa",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 164
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 165
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 369424.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 82
+  },
+  {
+    "name": "Nusantara",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 166
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 167
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 651880.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 83
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 168
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 169
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 786215.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 84
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 170
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 171
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 675544.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 85
+  },
+  {
+    "name": "Maju Jaya",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 172
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 173
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 791828.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 86
+  },
+  {
+    "name": "Rosalia Indah",
+    "departure": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 174
+    },
+    "arrival": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 175
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 475972.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 87
+  },
+  {
+    "name": "Cipaganti",
+    "departure": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 176
+    },
+    "arrival": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 177
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 538156.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 88
+  },
+  {
+    "name": "Akas Asri",
+    "departure": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 178
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 179
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 454306.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 89
+  },
+  {
+    "name": "Harapan Jaya",
+    "departure": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 180
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 181
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 817986.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 90
+  },
+  {
+    "name": "Royal Safari",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 182
+    },
+    "arrival": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 183
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 644270.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 91
+  },
+  {
+    "name": "Primajasa",
+    "departure": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 184
+    },
+    "arrival": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 185
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 796003.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 92
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 186
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 187
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 490280.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 93
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 188
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 189
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 968388.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 94
+  },
+  {
+    "name": "Akas Asri",
+    "departure": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 190
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 191
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 300031.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 95
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 192
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 193
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 427723.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 96
+  },
+  {
+    "name": "Kramat Djati",
+    "departure": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 194
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 195
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 394748.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 97
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 196
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 197
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 473334.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BALI",
+    "schedules": [],
+    "id": 98
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 198
+    },
+    "arrival": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 199
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 347724.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 99
+  },
+  {
+    "name": "Nusantara",
+    "departure": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 200
+    },
+    "arrival": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 201
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 750508.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 100
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 202
+    },
+    "arrival": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 203
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 927269.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 101
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 204
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 205
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 109476.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 102
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 206
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 207
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 192885.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 103
+  },
+  {
+    "name": "Royal Safari",
+    "departure": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 208
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 209
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 424370.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 104
+  },
+  {
+    "name": "Blue Star",
+    "departure": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 210
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 211
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 366712.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 105
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 212
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 213
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 462423.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 106
+  },
+  {
+    "name": "Nusantara",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 214
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 215
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 902737.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 107
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 216
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 217
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 888060.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 108
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 218
+    },
+    "arrival": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 219
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 493660.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 109
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 220
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 221
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 765320.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 110
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 222
+    },
+    "arrival": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 223
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 797143.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 111
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 224
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 225
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 244903.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 112
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 226
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 227
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 525383.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 113
+  },
+  {
+    "name": "Royal Safari",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 228
+    },
+    "arrival": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 229
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 525079.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 114
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 230
+    },
+    "arrival": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 231
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 136728.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 115
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 232
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 233
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 150230.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 116
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 234
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 235
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 439814.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 117
+  },
+  {
+    "name": "Kramat Djati",
+    "departure": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 236
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 237
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 914766.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 118
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 238
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 239
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 893420.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 119
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 240
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 241
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 950179.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 120
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 242
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 243
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 739840.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 121
+  },
+  {
+    "name": "Primajasa",
+    "departure": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 244
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 245
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 106738.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 122
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 246
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 247
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 893672.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 123
+  },
+  {
+    "name": "Royal Safari",
+    "departure": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 248
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 249
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 748467.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 124
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 250
+    },
+    "arrival": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 251
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 614745.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 125
+  },
+  {
+    "name": "Putra Remaja",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 252
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 253
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 907424.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 126
+  },
+  {
+    "name": "Akas Asri",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 254
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 255
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 928371.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 127
+  },
+  {
+    "name": "Akas Asri",
+    "departure": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 256
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 257
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 654398.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 128
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 258
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 259
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 147260.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 129
+  },
+  {
+    "name": "Royal Safari",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 260
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 261
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 406289.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BALI",
+    "schedules": [],
+    "id": 130
+  },
+  {
+    "name": "Blue Star",
+    "departure": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 262
+    },
+    "arrival": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 263
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 274250.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 131
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 264
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 265
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 741961.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 132
+  },
+  {
+    "name": "Primajasa",
+    "departure": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 266
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 267
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 976659.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 133
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 268
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 269
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 247099.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 134
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 270
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 271
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 849670.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 135
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 272
+    },
+    "arrival": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 273
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 324199.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 136
+  },
+  {
+    "name": "Primajasa",
+    "departure": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 274
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 275
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 406777.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 137
+  },
+  {
+    "name": "Rosalia Indah",
+    "departure": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 276
+    },
+    "arrival": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 277
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 440758.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 138
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 278
+    },
+    "arrival": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 279
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 742307.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 139
+  },
+  {
+    "name": "Rosalia Indah",
+    "departure": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 280
+    },
+    "arrival": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 281
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 890166.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 140
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 282
+    },
+    "arrival": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 283
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 460761.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 141
+  },
+  {
+    "name": "Subur Jaya",
+    "departure": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 284
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 285
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 236711.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 142
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 286
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 287
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 822400.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 143
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 288
+    },
+    "arrival": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 289
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 550316.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 144
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 290
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 291
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 632857.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 145
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 292
+    },
+    "arrival": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 293
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 639564.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 146
+  },
+  {
+    "name": "Nusantara",
+    "departure": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 294
+    },
+    "arrival": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 295
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 600413.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 147
+  },
+  {
+    "name": "Putra Remaja",
+    "departure": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 296
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 297
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 633787.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 148
+  },
+  {
+    "name": "Primajasa",
+    "departure": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 298
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 299
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 450028.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 149
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 300
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 301
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 606824.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 150
+  },
+  {
+    "name": "Primajasa",
+    "departure": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 302
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 303
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 747067.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 151
+  },
+  {
+    "name": "Shantika",
+    "departure": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 304
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 305
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 427566.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 152
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 306
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 307
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 444350.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 153
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 308
+    },
+    "arrival": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 309
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 682083.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 154
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 310
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 311
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 266116.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 155
+  },
+  {
+    "name": "Eka Cepat",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 312
+    },
+    "arrival": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 313
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 536946.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 156
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 314
+    },
+    "arrival": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 315
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 127834.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 157
+  },
+  {
+    "name": "Akas Asri",
+    "departure": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 316
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 317
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 844442.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 158
+  },
+  {
+    "name": "Putra Remaja",
+    "departure": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 318
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 319
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 405094.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 159
+  },
+  {
+    "name": "Pahala Kencana",
+    "departure": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 320
+    },
+    "arrival": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 321
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 667035.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 160
+  },
+  {
+    "name": "Royal Safari",
+    "departure": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 322
+    },
+    "arrival": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 323
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 981715.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 161
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 324
+    },
+    "arrival": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 325
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 452478.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 162
+  },
+  {
+    "name": "Putra Remaja",
+    "departure": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 326
+    },
+    "arrival": {
+      "address": "Jl. Bali 3",
+      "stationName": "Station Bali 3",
+      "city": "BALI",
+      "id": 327
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 422959.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 163
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 328
+    },
+    "arrival": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 329
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 650180.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 164
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 330
+    },
+    "arrival": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 331
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 866313.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 165
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 332
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 333
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 254141.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 166
+  },
+  {
+    "name": "Subur Jaya",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 334
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 335
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 295248.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 167
+  },
+  {
+    "name": "Kramat Djati",
+    "departure": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 336
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 3",
+      "city": "YOGYAKARTA",
+      "id": 337
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 351315.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 168
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 338
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 339
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 328381.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 169
+  },
+  {
+    "name": "Rosalia Indah",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 340
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 341
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 482240.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BALI",
+    "schedules": [],
+    "id": 170
+  },
+  {
+    "name": "Rosalia Indah",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 342
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 343
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 314815.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 171
+  },
+  {
+    "name": "Kramat Djati",
+    "departure": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 344
+    },
+    "arrival": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 345
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 829118.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 172
+  },
+  {
+    "name": "Harapan Jaya",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 346
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 347
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 706505.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 173
+  },
+  {
+    "name": "Subur Jaya",
+    "departure": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 348
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 349
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 120209.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 174
+  },
+  {
+    "name": "Rosalia Indah",
+    "departure": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 350
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 351
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 336786.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 175
+  },
+  {
+    "name": "Nusantara",
+    "departure": {
+      "address": "Jl. Surabaya 3",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 352
+    },
+    "arrival": {
+      "address": "Jl. Depok 3",
+      "stationName": "Station Depok 2",
+      "city": "DEPOK",
+      "id": 353
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 196720.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 176
+  },
+  {
+    "name": "Subur Jaya",
+    "departure": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 354
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 355
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 457899.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 177
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 356
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 357
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 924545.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 178
+  },
+  {
+    "name": "Royal Safari",
+    "departure": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 358
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 359
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 520851.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 179
+  },
+  {
+    "name": "Kramat Djati",
+    "departure": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 360
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 361
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 811754.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 180
+  },
+  {
+    "name": "Nusantara",
+    "departure": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 3",
+      "city": "JAKARTA",
+      "id": 362
+    },
+    "arrival": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 363
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 958085.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 181
+  },
+  {
+    "name": "Harapan Jaya",
+    "departure": {
+      "address": "Jl. Bandung 1",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 364
+    },
+    "arrival": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 365
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 968931.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 182
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 1",
+      "city": "BALI",
+      "id": 366
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 2",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 367
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 401695.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 183
+  },
+  {
+    "name": "Royal Safari",
+    "departure": {
+      "address": "Jl. Yogyakarta 2",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 368
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 369
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 298482.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 184
+  },
+  {
+    "name": "Bejeu",
+    "departure": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 370
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 371
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 840213.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 185
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 372
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 373
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 498753.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 186
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 3",
+      "city": "SEMARANG",
+      "id": 374
+    },
+    "arrival": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 375
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 302347.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 187
+  },
+  {
+    "name": "Santoso",
+    "departure": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 1",
+      "city": "JAKARTA",
+      "id": 376
+    },
+    "arrival": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 3",
+      "city": "DEPOK",
+      "id": 377
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 425372.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 188
+  },
+  {
+    "name": "Subur Jaya",
+    "departure": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 378
+    },
+    "arrival": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 1",
+      "city": "BANDUNG",
+      "id": 379
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 322959.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 189
+  },
+  {
+    "name": "Cipaganti",
+    "departure": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 380
+    },
+    "arrival": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 381
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 947179.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 190
+  },
+  {
+    "name": "Nusantara",
+    "departure": {
+      "address": "Jl. Bandung 3",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 382
+    },
+    "arrival": {
+      "address": "Jl. Yogyakarta 3",
+      "stationName": "Station Yogyakarta 2",
+      "city": "YOGYAKARTA",
+      "id": 383
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 985035.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 191
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Bali 2",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 384
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 2",
+      "city": "SURABAYA",
+      "id": 385
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 304428.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "DOUBLE_DECKER",
+    "city": "BALI",
+    "schedules": [],
+    "id": 192
+  },
+  {
+    "name": "Subur Jaya",
+    "departure": {
+      "address": "Jl. Yogyakarta 1",
+      "stationName": "Station Yogyakarta 1",
+      "city": "YOGYAKARTA",
+      "id": 386
+    },
+    "arrival": {
+      "address": "Jl. Jakarta 3",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 387
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 104430.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "YOGYAKARTA",
+    "schedules": [],
+    "id": 193
+  },
+  {
+    "name": "Raya",
+    "departure": {
+      "address": "Jl. Semarang 1",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 388
+    },
+    "arrival": {
+      "address": "Jl. Depok 1",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 389
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 461879.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "SEMARANG",
+    "schedules": [],
+    "id": 194
+  },
+  {
+    "name": "Royal Safari",
+    "departure": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 3",
+      "city": "BANDUNG",
+      "id": 390
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 391
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 874714.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "MINIBUS",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 195
+  },
+  {
+    "name": "Haryanto",
+    "departure": {
+      "address": "Jl. Surabaya 1",
+      "stationName": "Station Surabaya 1",
+      "city": "SURABAYA",
+      "id": 392
+    },
+    "arrival": {
+      "address": "Jl. Semarang 2",
+      "stationName": "Station Semarang 2",
+      "city": "SEMARANG",
+      "id": 393
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 297160.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "SURABAYA",
+    "schedules": [],
+    "id": 196
+  },
+  {
+    "name": "Kramat Djati",
+    "departure": {
+      "address": "Jl. Jakarta 1",
+      "stationName": "Station Jakarta 2",
+      "city": "JAKARTA",
+      "id": 394
+    },
+    "arrival": {
+      "address": "Jl. Bali 1",
+      "stationName": "Station Bali 2",
+      "city": "BALI",
+      "id": 395
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 154596.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "HIGH_DECKER",
+    "city": "JAKARTA",
+    "schedules": [],
+    "id": 197
+  },
+  {
+    "name": "Agra Mas",
+    "departure": {
+      "address": "Jl. Bandung 2",
+      "stationName": "Station Bandung 2",
+      "city": "BANDUNG",
+      "id": 396
+    },
+    "arrival": {
+      "address": "Jl. Surabaya 2",
+      "stationName": "Station Surabaya 3",
+      "city": "SURABAYA",
+      "id": 397
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 476967.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "BANDUNG",
+    "schedules": [],
+    "id": 198
+  },
+  {
+    "name": "Akas Asri",
+    "departure": {
+      "address": "Jl. Depok 2",
+      "stationName": "Station Depok 1",
+      "city": "DEPOK",
+      "id": 398
+    },
+    "arrival": {
+      "address": "Jl. Semarang 3",
+      "stationName": "Station Semarang 1",
+      "city": "SEMARANG",
+      "id": 399
+    },
+    "price": {
+      "rebate": 5.0,
+      "price": 541589.0
+    },
+    "facility": "LUNCH",
+    "capacity": 25,
+    "busType": "REGULER",
+    "city": "DEPOK",
+    "schedules": [],
+    "id": 199
+  }
+]

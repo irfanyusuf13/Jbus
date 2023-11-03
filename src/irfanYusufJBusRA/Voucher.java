@@ -1,6 +1,6 @@
 package irfanYusufJBusRA;
 
-public class Voucher extends Serializable implements FileParser{
+public class Voucher extends Serializable{
     public String name;
     private boolean used;
     public double minimum;

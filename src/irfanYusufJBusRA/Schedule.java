@@ -49,6 +49,7 @@ public class Schedule
         System.out.println("\n");
     }
      public boolean isSeatAvailable(String seat) {
+        Boolean availability = seatAvailability.get(seat);
     return seatAvailability.getOrDefault(seat, false);
 }
 
@@ -78,7 +79,9 @@ public class Schedule
                     "\nOccupied: " + seatTerisi
                     + "/" + jumlahSeat;
         }
-    }
+
+
+}
 
 
 
