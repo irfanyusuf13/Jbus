@@ -8,7 +8,7 @@ import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
 
 public class JBus {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         /*String filepath = "C:\\College\\Semester 3\\OOP\\OOP Java\\JBus\\data\\station.json";
         Gson gson = new Gson();
 
@@ -24,8 +24,19 @@ public class JBus {
             e.printStackTrace();
         }
          */
+
         try {
-            String filepath = "C:\\College\\Semester 3\\OOP\\OOP Java\\JBus\\data\\buses_CS.json";
+            String filepath = "C:\\College\\Semester 3\\OOP\\OOP Java\\JBus\\data\\accountDatabase.json";
+            Gson gson = new Gson();
+            JsonTable<Account> tableAccount = new JsonTable<>(Account.class, filepath);
+            Account account1 = new Account("Irfan", "Irfan@gmail.com", "ngikngok");
+            tableAccount.add(account1);
+            tableAccount.writeJson();
+
+            for (Account akun : tableAccount) {
+                System.out.println(akun.toString());
+            }
+
             JsonTable<Bus> busList = new JsonTable<>(Bus.class,filepath);
             List<Bus> filteredBus = filterByDeparture(busList,City.JAKARTA,0,3);
             filteredBus.forEach(bus -> System.out.println(bus.toString()));
@@ -33,12 +44,21 @@ public class JBus {
         catch (Throwable t){
             t.printStackTrace();
         }
+        Bus bus = createBus();
+        bus.schedules.forEach(Schedule::printSchedule);
+        for(int i =0; i < 10; i++){
+            BookingThread thread = new BookingThread("Thread " + i,bus, Timestamp.valueOf("2023-07-27 19:00:00"));
+        }
+        Thread.sleep(1000);
+        bus.schedules.forEach(Schedule::printSchedule);
     }
 
 
     public static Bus createBus() {
         Price price = new Price(750000, 5);
         Bus bus = new Bus(1, "Netlab Bus", Facility.LUNCH, price, 25, BusType.REGULER, City.BANDUNG, new Station(1, "Depok Terminal", City.DEPOK, "Jl. Margonda Raya"), new Station(2, "Halte UI", City.JAKARTA, "Universitas Indonesia"));
+        Timestamp timestamp = Timestamp.valueOf("2023-07-27 19:00:00");
+        bus.addSchedule(timestamp);
         return bus;
     }
     public static List<Bus> filterByDeparture(List<Bus> buses, City departure, int page, int pageSize) {

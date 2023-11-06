@@ -47,11 +47,13 @@ public static Schedule availableSchedule(Timestamp departureSchedule, String sea
 }
 
 
-public static boolean makeBooking(Timestamp departureSchedule, String seat, Bus bus){
-        for (Schedule s : bus.schedules){
-            if(s.departureSchedule.equals(departureSchedule)){
-                s.bookSeat(seat);
-                return true;
+    public static boolean makeBooking(Timestamp departureSchedule, String seat, Bus bus) {
+        for (Schedule s : bus.schedules) {
+            if (s.departureSchedule.equals(departureSchedule)) {
+                if(s.isSeatAvailable(seat)) {
+                    s.bookSeat(seat);
+                    return true;
+                }
             }
         }
         return false;

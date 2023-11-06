@@ -3,59 +3,32 @@ import java.util.HashMap;
 
 public class Serializable {
     public final int id;
-    private static HashMap<Class<?>, Integer> mapCounter = new HashMap<>();
-    Class<?> currentClass = this.getClass();
-
-    protected Serializable()
-    {
-
-        if (mapCounter == null){
-            mapCounter = new HashMap<Class<?>, Integer>();
-            this.id = 0;
-        }
-        else {
-            int counter = mapCounter.getOrDefault(this.getClass(), 0);
-            mapCounter.put(this.getClass(), counter++);
-            this.id = counter;
-        }
+    private static HashMap<Class<?>, Integer> mapCounter = new HashMap<Class <?>, Integer>();
+    protected Serializable(){
+        Integer counter = mapCounter.get(getClass());
+        counter = counter == null ? 0 : counter + 1;
+        mapCounter.put(getClass(), counter);
+        this.id = counter;
     }
 
-    public static Integer getLastAssignedId(Class<?> className){
-        return mapCounter.getOrDefault(className,0);
+    public static <T> Integer getLastAssignedId(Class<T> getter ){
+        return mapCounter.get(getter);
     }
 
-    public static Integer setLastAssignedId(Class <?> className, int nilai) {
-        mapCounter.put(className, nilai);
-        return mapCounter.replace(className, nilai);
+    public static <T> Integer setLastAssignedId(Class<T> setter, int number){
+        return mapCounter.put(setter, number);
     }
 
-    public boolean equals(Serializable obj) {
-        return this.id == obj.id;
+    public int compareTo(Serializable temp){
+        return ((Integer)this.id).compareTo(temp.id);
     }
 
-    public int compareTo(Serializable obj) {
-        if (id == obj.id){
-            return 0;
-        }
-        else if (id > obj.id) {
-            return 1;
-        }
-        else{
-            return -1;
-        }
-
+    public boolean equals(Serializable temp){
+        return temp.id == this.id;
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null || getClass() != obj.getClass()) {
-            return false;
-        }
-        Serializable other = (Serializable) obj;
-        return this.id == other.id;
-
+    public boolean equals(Object object){
+        return object instanceof Serializable && ((Serializable) object).id == this.id;
     }
+
 }
