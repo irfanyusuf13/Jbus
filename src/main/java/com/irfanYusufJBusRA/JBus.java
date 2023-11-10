@@ -13,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JBus {
     public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(JBus.class, args);
+    }
         /*String filepath = "C:\\College\\Semester 3\\OOP\\OOP Java\\JBus\\data\\station.json";
         Gson gson = new Gson();
 
@@ -28,7 +29,7 @@ public class JBus {
             e.printStackTrace();
         }
          */
-
+        /*
         try {
             String filepath = "C:\\College\\Semester 3\\OOP\\OOP Java\\JBus\\data\\accountDatabase.json";
             Gson gson = new Gson();
@@ -102,6 +103,8 @@ public class JBus {
         return paginatedDepartureAndArrival;
     }
 
+
+         */
 }
 /*
 public static int getBusId(){

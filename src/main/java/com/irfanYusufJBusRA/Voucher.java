@@ -1,6 +1,8 @@
 package com.irfanYusufJBusRA;
 
-public class Voucher extends Serializable{
+import com.irfanYusufJBusRA.dbjson.Serializable;
+
+public class Voucher extends Serializable {
     public String name;
     private boolean used;
     public double minimum;

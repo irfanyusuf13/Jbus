@@ -1,6 +1,8 @@
 package com.irfanYusufJBusRA;
 
-public class Station extends Serializable{
+import com.irfanYusufJBusRA.dbjson.Serializable;
+
+public class Station extends Serializable {
     public City city;
     public String stationName;
     public String address;

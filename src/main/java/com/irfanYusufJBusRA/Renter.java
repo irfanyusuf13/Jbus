@@ -1,7 +1,9 @@
 package com.irfanYusufJBusRA;
+import com.irfanYusufJBusRA.dbjson.Serializable;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-public class Renter extends Serializable{
+public class Renter extends Serializable {
     public String address;
     public String companyName;
     public String phoneNumber;

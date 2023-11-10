@@ -1,7 +1,8 @@
 package com.irfanYusufJBusRA;
 
+import com.irfanYusufJBusRA.dbjson.Serializable;
+
 import java.sql.Timestamp;
-import java.util.Calendar;
 
 public class Invoice extends Serializable
 {
