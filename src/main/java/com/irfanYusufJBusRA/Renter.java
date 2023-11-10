@@ -7,7 +7,7 @@ public class Renter extends Serializable {
     public String address;
     public String companyName;
     public String phoneNumber;
-    private final String REGEX_NAME  = "^[A-Z][A-Za-z0-9_]{3,19}$";
+    private final String REGEX_NAME  = "^[A-Z][A-Za-z0-9]{3,19}$";
     private final String REGEX_PHONE = "\\d{9,12}";
 
 

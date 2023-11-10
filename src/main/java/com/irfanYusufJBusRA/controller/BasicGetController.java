@@ -24,4 +24,3 @@ public interface BasicGetController <T extends Serializable>{
         return Algorithm.<T>find(getJsonTable(), e -> e.id == id);
     }
 }
-

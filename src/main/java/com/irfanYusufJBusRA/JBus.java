@@ -6,13 +6,16 @@ import java.io.FileReader;
 import java.io.IOException;
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
+import com.irfanYusufJBusRA.dbjson.JsonDBEngine;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class JBus {
     public static void main(String[] args) throws InterruptedException {
+        JsonDBEngine.Run(JBus.class);
         SpringApplication.run(JBus.class, args);
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> JsonDBEngine.join()));
     }
         /*String filepath = "C:\\College\\Semester 3\\OOP\\OOP Java\\JBus\\data\\station.json";
         Gson gson = new Gson();
