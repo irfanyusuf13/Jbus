@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.sql.Timestamp;
 import java.util.List;
 
 
@@ -27,7 +28,14 @@ public BaseResponse<Bus>addSchedule(
         @RequestParam int busId,
         @RequestParam String time
         ) {
-    return null;
+    try {
+        Bus bus = Algorithm.<Bus>find(busTable, bis -> bis.id ==busId);
+        bus.addSchedule(Timestamp.valueOf(time));
+        return new BaseResponse<>(true, "Jadwal Baru berhasil ditambah", bus);
+    }
+    catch (Exception e){
+        return new BaseResponse<>(false, "Jadwal Baru tidak dapat ditambah", null);
+    }
 }
 @PostMapping ("/create")
 public BaseResponse<Bus> create(
@@ -45,7 +53,7 @@ public BaseResponse<Bus> create(
         Account account = Algorithm.<Account>find(AccountController.accountTable, bis -> bis.id == accountId);
         if (account != null) {
             if (account.company != null) {
-                Bus bus = Algorithm.<Bus>find(busTable, x -> x.arrival.id == stationArrivalId && x.departure.id == stationDepartureId);
+                Bus bus = Algorithm.<Bus>find(busTable, bis -> bis.arrival.id == stationArrivalId && bis.departure.id == stationDepartureId);
                 Price priceNew = new Price(price);
                 Bus bisCreate= new Bus (name, facilities, priceNew, capacity, busType, bus.departure, bus.arrival);
                 return new BaseResponse<>(true, "Bus berhasil Dibuat", bisCreate);
