@@ -9,30 +9,34 @@ import java.sql.Timestamp;
 public class Bus extends Serializable {
     public String name;
     public int capacity;
-    public Facility facility;
+    public List <Facility> facilities;
     public Price price;
     public BusType busType;
-    public City city;
+
     public Station departure;
     public Station arrival;
     public List<Schedule> schedules;
+    public int accountId;
 
 
 public Bus(int id, String name, Facility facility, Price price, int capacity, BusType busType, City city , Station departure , Station arrival){
     super();
     this.name = name;
-    this.facility = facility;
+    this.facilities = facilities;
     this.price = price;
     this.capacity = capacity;
     this.busType = busType;
-    this.city = city;
     this.departure = departure;
     this.arrival = arrival;
     this.schedules = new ArrayList  <Schedule>();
 
 }
-public String toString(){
-    return "ID : "+ super.id + " Name : " + this.name + " Facility : " + this.facility + " Price : " + this.price + " Capacity : " + this.capacity + " Bus Type" + this.busType + " City : " + this.city + " Departure :" + this.departure + " Arrival : " +this.arrival;
+
+    public Bus(String name, List<Facility> facilities, Price priceObj, int capacity, BusType busType, Station departure, Station arrival) {
+    }
+
+    public String toString(){
+    return "ID : "+ super.id + " Name : " + this.name + " Facility : " + this.facilities + " Price : " + this.price + " Capacity : " + this.capacity + " Bus Type" + this.busType  + " Departure :" + this.departure + " Arrival : " +this.arrival;
 }
 
 
