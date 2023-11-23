@@ -34,17 +34,20 @@ public class PaymentController implements BasicGetController<Payment> {
             @RequestParam List <String> busSeats,
             @RequestParam String departureDate
     ) {
-        for(Account account : AccountController.accountTable){
-            if(account.id == buyerId && account.balance >= BusController.busTable.get(busId).price.price && Algorithm.<Schedule>find(BusController.busTable.get(busId).schedules, s -> s.departureSchedule.equals(departureDate)) != null){
-                account.balance -= BusController.busTable.get(busId).price.price;
-                return new BaseResponse<>(true, "Booking Berhasil dilakukan", null);
+        for(Account acc : AccountController.accountTable){
+            if(acc.id == buyerId && acc.balance >= BusController.busTable.get(busId).price.price && Algorithm.<Schedule>find(BusController.busTable.get(busId).schedules, s -> s.departureSchedule.equals(departureDate)) != null){
+                acc.balance -= BusController.busTable.get(busId).price.price;
+                Payment payment = new Payment(buyerId, renterId, busId, busSeats, Timestamp.valueOf(departureDate));
+                payment.status = Invoice.PaymentStatus.WAITING;
 
-            }
-            else
-                return new BaseResponse<>(false, "Booking gagal dilakukan", null);
+                paymentTable.add(payment);
+
+                return new BaseResponse<>(true, "Berhasil melakukan booking", payment);
+
+            } else
+                return new BaseResponse<>(false, "Gagal melakukan booking", null);
         }
-
-        return new BaseResponse<>(false, "Booking gagal dilakukan", null);
+        return new BaseResponse<>(false, "Gagal melakukan booking", null);
     }
 
     @RequestMapping(value = "{id}/accept", method = RequestMethod.POST)
@@ -52,17 +55,30 @@ public class PaymentController implements BasicGetController<Payment> {
             @PathVariable int id
 
     ){
-        return null;
+        if(!(Algorithm.<Payment>exists(paymentTable, e -> e.id == id))){
+            return new BaseResponse<>(false, "Tidak ada payment", null);
+        }
+
+        Payment newPayment = Algorithm.<Payment>find(paymentTable, e -> e.id == id);
+        newPayment.status = Invoice.PaymentStatus.SUCCESS;
+        return new BaseResponse<>(true, "Payment berhasil", newPayment);
     }
     @RequestMapping(value = "{id}/cancel", method = RequestMethod.POST)
     public BaseResponse<Payment>cancel(
             @PathVariable int id
     )
     {
-        return new BaseResponse<>(true, "Cancel Pembayaran", null);
-        
+        if(!(Algorithm.<Payment>exists(paymentTable, e -> e.id == id))){
+            return new BaseResponse<>(false, "Tidak ada payment", null);
+        }
+
+        Payment newPayment = Algorithm.<Payment>find(paymentTable, e -> e.id == id);
+        newPayment.status = Invoice.PaymentStatus.FAILED;
+        return new BaseResponse<>(true, "Membatalkan payment", newPayment);
+    }
+
     }
 
 
 
-}
+

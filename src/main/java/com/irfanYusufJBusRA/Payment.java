@@ -13,16 +13,16 @@ public class Payment extends Invoice{
     public List<String> busSeats;
     
     
-public Payment(int id , int buyerId , int renterId , int busId ,  String busSeat , Timestamp departureDate){
-    super(id, buyerId , renterId);
+public Payment( int buyerId , int renterId , int busId ,  List<String> busSeats , Timestamp departureDate){
+    super(buyerId, renterId);
     this.busId = busId;
-    this.departureDate = departureDate;
+    this.departureDate = new Timestamp(System.currentTimeMillis());
     this.busSeats = busSeats;
 }
-public Payment(int id , Account buyer , Renter renter,  int busId ,  String busSeat , Timestamp departureDate ) {
-    super(id , buyer , renter);
+public Payment(Account buyer , Renter renter,  int busId , List<String> busSeats , Timestamp departureDate ) {
+    super(buyer, renter);
     this.busId = busId;
-    this.departureDate = departureDate;
+    this.departureDate = new Timestamp(System.currentTimeMillis());
     this.busSeats = busSeats;
 }
 public String getDepartureInfo(){

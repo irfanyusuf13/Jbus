@@ -23,7 +23,7 @@ public enum PaymentStatus{
      SUCCESS;
 } 
  
- protected Invoice (int id, int buyerId , int renterId){
+ protected Invoice (int buyerId , int renterId){
      super();
      this.buyerId = buyerId;
      this.renterId = renterId;
@@ -31,7 +31,7 @@ public enum PaymentStatus{
      this.rating = BusRating.NONE;
      this.status = PaymentStatus.WAITING;
  }
- public Invoice (int id , Account buyer , Renter renter){
+ public Invoice (Account buyer , Renter renter){
      super();
      this.buyerId = buyer.id;
      this.renterId = renter.id;

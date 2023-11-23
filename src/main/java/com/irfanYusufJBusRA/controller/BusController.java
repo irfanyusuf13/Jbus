@@ -37,17 +37,17 @@ public BaseResponse<Bus>addSchedule(
         return new BaseResponse<>(false, "Jadwal Baru tidak dapat ditambah", null);
     }
 }
-@PostMapping ("/create")
-public BaseResponse<Bus> create(
-        @RequestParam int accountId,
-        @RequestParam String name,
-        @RequestParam int capacity,
-        @RequestParam List <Facility> facilities,
-        @RequestParam BusType busType,
-        @RequestParam int price,
-        @RequestParam int stationDepartureId,
-        @RequestParam int stationArrivalId
-        )
+    @PostMapping ("/create")
+    public BaseResponse<Bus> create(
+            @RequestParam int accountId,
+            @RequestParam String name,
+            @RequestParam int capacity,
+            @RequestParam List <Facility> facilities,
+            @RequestParam BusType busType,
+            @RequestParam int price,
+            @RequestParam int stationDepartureId,
+            @RequestParam int stationArrivalId
+            )
 {
     if(Algorithm.<Bus>exists(busTable, bis -> bis.arrival.id == stationArrivalId) && Algorithm.<Bus>exists(busTable, bis -> bis.departure.id == stationDepartureId)) {
         Account account = Algorithm.<Account>find(AccountController.accountTable, bis -> bis.id == accountId);
