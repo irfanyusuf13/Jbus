@@ -1,11 +1,12 @@
 package com.irfanYusufJBusRA.controller;
 
-import com.irfanYusufJBusRA.Bus;
 import com.irfanYusufJBusRA.City;
 import com.irfanYusufJBusRA.Station;
 import com.irfanYusufJBusRA.dbjson.JsonAutowired;
 import com.irfanYusufJBusRA.dbjson.JsonTable;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/station")
@@ -48,5 +49,7 @@ public class StationController implements BasicGetController<Station> {
             return new BaseResponse<>(false, "An error occurred while adding the station", null);
         }
     }
+    @GetMapping("/getAll")
+    public List<Station> getAllStation() { return getJsonTable();}
 
 }

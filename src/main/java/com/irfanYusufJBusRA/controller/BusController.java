@@ -3,11 +3,7 @@ package com.irfanYusufJBusRA.controller;
 import com.irfanYusufJBusRA.*;
 import com.irfanYusufJBusRA.dbjson.JsonAutowired;
 import com.irfanYusufJBusRA.dbjson.JsonTable;
-import com.irfanYusufJBusRA.Bus;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.sql.Timestamp;
 import java.util.List;
@@ -15,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/Bus")
-public class BusController implements BasicGetController<Bus>{
+public class    BusController implements BasicGetController<Bus>{
 
     @JsonAutowired(value = Bus.class, filepath = "C:\\College\\Semester 3\\OOP\\OOP Java\\JBus\\data\\json\\Bus_db.json")
     public static JsonTable<Bus> busTable;
@@ -65,6 +61,11 @@ public BaseResponse<Bus>addSchedule(
     } return new BaseResponse<>(false, "ID departure atau arrival tidak ada di database", null);
 
 }
+@GetMapping("/getMyBus")
+    public List<Bus> getMyBus(
+            @RequestParam int accountId) {
+        return Algorithm.<Bus>collect(getJsonTable(),
+                b->b.accountId==accountId);}
 }
 
 
