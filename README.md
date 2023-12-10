@@ -71,35 +71,35 @@ Makebooking Activity
 
 ## Features
 
-Register
+1.Register
    
 Register digunakan untuk melakukan registrasi akun
 
-Login
+2.Login
    
 Login digunakan untuk melakukan login terhadap akun yang sudah diregistrasi
 
-Top Up
+3.Top Up
 
 Top Up digunakan untuk menambahkan saldo sesuai keinginan user
 
-RegisterRenter
+4.RegisterRenter
 
 Register Register digunakan untuk mengregist akun menjadi akun renter
 
-Add Bus
+5.Add Bus
 
 Add Bus digunakan untuk renter menambahkan bis dengan detail nama, kapasitas, harga , jenis bus , Station keberangkatan, stasiun kedatangan dan facilitas facilitasnya
 
-Manage Bus Schedule
+6.Manage Bus Schedule
 
 Manage Bus Schedule digunakan untuk renter menambahkan jadwal di bis yang sudah dibuatnya
 
-Make Booking (Fiturnya masih gagal)
+7.Make Booking (Fiturnya masih gagal)
 
 Make Booking digunakan untuk buyer memesan jadwal bis dan seatnya sesuai bis yang dipilihnya 
 
-Payment (Fiturnya masih gagal )
+8.Payment (Fiturnya masih gagal )
 
 Payment digunakan untuk buyer membayar bis yang sudah dibooking 
 
