@@ -70,11 +70,14 @@ RegisterRenter Activity
 
 Managebus Activity
 
-    <img width="144" alt="Manage Schedule" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/a2bae2a1-d687-474a-b1ee-bb9f1734c11a">
+   <img width="144" alt="Manage Schedule" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/1b45b794-f138-4598-b782-0bd8b29255e9">
+
 
 AddBus Activity
 
-    <img width="144" alt="Add Bus" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/30c55d3e-4156-443c-a2de-fe32ba003dc7">
+<img width="144" alt="Add Bus" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/307ae272-91be-4948-a7cd-537799d79437">
+
+
 
 Managebusschedule Activity
 
