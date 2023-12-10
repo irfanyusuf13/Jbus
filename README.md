@@ -45,39 +45,49 @@ Payment digunakan untuk buyer membayar bis yang sudah dibooking
 
 ## Product
 
-1. Register Activity
+Register Activity
+
    <img width="142" alt="Register akun" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/5045765e-d394-4e74-aefc-7a3acd73f1fa">
    
-2. Login Activity
+Login Activity
+
    <img width="134" alt="Login Akun" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/548d33ea-6df2-44c4-9935-a7493a78bcd4">
 
-3. Main Activity
+Main Activity
+
    <img width="153" alt="Main Activity" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/2ec7827c-295e-421c-8d29-bc7b374879f5">
 
-5. Aboutme Activity
+Aboutme Activity
+
    <img width="137" alt="Aboutme" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/2d33f79e-f16d-4842-9206-7dc55ca4bf4b">
    <img width="136" alt="Topup" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/46d8e966-73c8-458b-9b0a-8a3e7c3feddb">
 
-7. RegisterRenter Activity
+RegisterRenter Activity
+
    <img width="140" alt="Register Company" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/dde6beed-a35e-4089-b3b4-837f7d860db2">
    <img width="144" alt="Already Register" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/dcee37ae-ee27-4221-9252-a8cb3661f1be">
 
 
-9. Managebus Activity
+Managebus Activity
+
     <img width="144" alt="Manage Schedule" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/a2bae2a1-d687-474a-b1ee-bb9f1734c11a">
 
-11. AddBus Activity
+AddBus Activity
+
     <img width="144" alt="Add Bus" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/30c55d3e-4156-443c-a2de-fe32ba003dc7">
 
-13. Managebusschedule Activity
+Managebusschedule Activity
+
 <img width="138" alt="manageschedule 3" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/d6369fbf-36d2-457a-ae2f-24d20c5075b2">
 <img width="134" alt="manageschedule 2" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/74104232-4cf4-4f4f-8cc8-99b2a6c01752">
 <img width="144" alt="manageschedule 1" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/a55d5034-2a2e-4a90-ae21-254454f367f4">
 
-15. Busdetail Activity
+Busdetail Activity
+
 <img width="141" alt="Busdetail" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/00821597-3a20-45d3-b4a3-75c6068bdcdd">
 
-17. Makebooking Activity
+Makebooking Activity
+
 <img width="139" alt="Makebooking" src="https://github.com/irfanyusuf13/Jbus/assets/144302105/9cbc341b-ebd8-40f4-afa4-291e97f91a6e">
 
 
