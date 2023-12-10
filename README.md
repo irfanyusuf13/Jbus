@@ -9,7 +9,8 @@ Irfan Yusuf Khaerullah (2206813290)
 
 ## Overview
 
-JBus Adalah suatu aplikasi Android yang berfungsi sebagai aplikasi pemesanan Bus 
+
+Aplikasi pemesanan bis adalah solusi inovatif dalam transformasi perjalanan umum, menggantikan metode tradisional dengan kemudahan digital. Dengan menggunakan aplikasi atau platform daring, pengguna dapat dengan mudah mencari, memilih, dan membeli tiket bis, serta mendapatkan informasi real-time tentang jadwal, rute, dan ketersediaan kursi. Keunggulan utamanya terletak pada kemudahan akses dan pembayaran online, meningkatkan efisiensi, kenyamanan, dan keamanan transaksi. Alat ini membawa perjalanan dengan bis ke era modern, menciptakan pengalaman yang lebih praktis dan terjangkau bagi para penumpang. Oleh Karena Itu JBUS hadir untuk menjadi Solusi Inovatif dan jawaban masyarakat sekitar
 
 
 
