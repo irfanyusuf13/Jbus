@@ -2,6 +2,12 @@ package com.irfanYusufJBusRA;
 
 import com.irfanYusufJBusRA.dbjson.Serializable;
 
+
+/**
+ * This class is used to store the information of Voucher
+ * @author Irfan Yusuf
+ */
+
 public class Voucher extends Serializable {
     public String name;
     private boolean used;
@@ -11,6 +17,10 @@ public class Voucher extends Serializable {
     public Type type;
 
 
+
+    /**
+     * Constructor objects for Voucher class
+     */
 public Voucher (int id, String name, int code , Type type , double minimum , double cut){
     super();
     this.name = name;

@@ -1,19 +1,19 @@
 package com.irfanYusufJBusRA.controller;
-import com.fasterxml.jackson.databind.ser.Serializers;
-import com.irfanYusufJBusRA.Account;
-import com.irfanYusufJBusRA.Bus;
-import com.irfanYusufJBusRA.Payment;
-import com.irfanYusufJBusRA.Invoice;
-import com.irfanYusufJBusRA.Schedule;
-import com.irfanYusufJBusRA.Algorithm;
 
+import com.irfanYusufJBusRA.*;
 import com.irfanYusufJBusRA.dbjson.JsonAutowired;
 import com.irfanYusufJBusRA.dbjson.JsonTable;
-import org.springframework.util.concurrent.SuccessCallback;
 import org.springframework.web.bind.annotation.*;
 
 import java.sql.Timestamp;
-import java.util.*;
+import java.util.List;
+
+import static com.irfanYusufJBusRA.controller.BusController.busTable;
+
+/**.
+ * This class is used to handle /Payment requests from the client.
+ * @author Irfan Yusuf
+ */
 
 @RestController
 @RequestMapping("/Payment")
@@ -25,30 +25,44 @@ public class PaymentController implements BasicGetController<Payment> {
         return paymentTable;
     }
 
-
+    /**
+     * This method is used to handle /Payment/ makeBooking bus requests from the client.
+     * This method is used to book a bus with it schedule and seat
+     * @author Irfan Yusuf
+     */
     @RequestMapping(value = "/makeBooking", method = RequestMethod.POST)
-    public BaseResponse<Payment>makeBooking(
+    public BaseResponse<Payment> makeBooking(
             @RequestParam int buyerId,
             @RequestParam int renterId,
             @RequestParam int busId,
             @RequestParam List <String> busSeats,
             @RequestParam String departureDate
     ) {
-        for(Account acc : AccountController.accountTable){
-            if(acc.id == buyerId && acc.balance >= BusController.busTable.get(busId).price.price && Algorithm.<Schedule>find(BusController.busTable.get(busId).schedules, s -> s.departureSchedule.equals(departureDate)) != null){
-                acc.balance -= BusController.busTable.get(busId).price.price;
-                Payment payment = new Payment(buyerId, renterId, busId, busSeats, Timestamp.valueOf(departureDate));
-                payment.status = Invoice.PaymentStatus.WAITING;
+        if (Algorithm.<Account>exists(AccountController.accountTable, x -> x.id == buyerId && x.company.id == renterId)){
+            if (Algorithm.<Bus>exists(BusController.busTable, x -> x.id == busId)){
+                Account theBuyer = Algorithm.<Account>find(AccountController.accountTable, x -> x.id == buyerId && x.company.id == renterId);
+                Bus theBus = busTable.get(busId-1);
+                if (theBuyer.balance >= (theBus.price.price*busSeats.size())){;
+                    Timestamp departure = Timestamp.valueOf(departureDate);
 
-                paymentTable.add(payment);
-
-                return new BaseResponse<>(true, "Berhasil melakukan booking", payment);
-
-            } else
-                return new BaseResponse<>(false, "Gagal melakukan booking", null);
-        }
-        return new BaseResponse<>(false, "Gagal melakukan booking", null);
+                    if (Algorithm.<Schedule>exists(theBus.schedules, x -> x.departureSchedule.compareTo(departure) == 0)){
+                        if(Payment.makeBooking(departure, busSeats, theBus)) {
+                            Payment payment = new Payment(buyerId,renterId,busId,busSeats, departure);
+                            paymentTable.add(payment);
+                            return new BaseResponse<>(true, "Berhasil Melakukan Booking", payment);
+                        } return new BaseResponse<>(false, "Berhasil melakukan booking", null);
+                    }return new BaseResponse<>(false, "Gagal Melakukan Booking ", null);
+                } return new BaseResponse<>(false, "Gagal Melakukan Booking ", null);
+            } return new BaseResponse<>(false, "Gagal Melakukan Booking ", null);
+        } return new BaseResponse<>(false, "Gagal Melakukan Booking ", null);
     }
+
+
+    /**
+     * This method is used to handle /Payment/ Accept bus requests from the client.
+     * This method is used to accept the booking
+     * @author Irfan Yusuf
+     */
 
     @RequestMapping(value = "{id}/accept", method = RequestMethod.POST)
     public BaseResponse<Payment>accept(
@@ -63,6 +77,13 @@ public class PaymentController implements BasicGetController<Payment> {
         newPayment.status = Invoice.PaymentStatus.SUCCESS;
         return new BaseResponse<>(true, "Payment berhasil", newPayment);
     }
+
+
+    /**
+     * This method is used to handle /Payment/ Cancel bus requests from the client.
+     * This method is used to cancel the booking
+     * @author Irfan Yusuf
+     */
     @RequestMapping(value = "{id}/cancel", method = RequestMethod.POST)
     public BaseResponse<Payment>cancel(
             @PathVariable int id

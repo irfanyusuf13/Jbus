@@ -1,5 +1,10 @@
 package com.irfanYusufJBusRA.controller;
 
+
+/**.
+ * This class is used to give response about other class.
+ * @author Irfan Yusuf
+ */
 public class BaseResponse<T> {
     public boolean success;
     public String message;

@@ -1,7 +1,13 @@
 package com.irfanYusufJBusRA;
 
 import java.sql.Timestamp;
-import java.sql.Timestamp;
+
+
+/**
+ * This class is used to give the information of a booked Bus.
+ * @author Irfan Yusuf
+ */
+
 public class BookingThread extends Thread{
     private Bus bus;
     private Timestamp timestamp ;

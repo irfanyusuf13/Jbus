@@ -3,6 +3,10 @@ import java.util.*;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 
+/**
+ * This class is used to store the information of a Schedule.
+ * @author Irfan Yusuf
+ */
 
 public class Schedule
 {
@@ -10,12 +14,18 @@ public class Schedule
   public Timestamp departureSchedule;
 
 
-
+    /**
+     * Constructor objects for Schedule Class
+     */
     public Schedule(Timestamp departureSchedule , int numberOfSeats){
       this.departureSchedule = departureSchedule;
 
        initializeSeatAvailability (numberOfSeats);
   }
+
+    /**
+     * This method is used initialize available of schedule seat
+     */
 
     private void  initializeSeatAvailability (int numberOfSeats){
      this.seatAvailability = new LinkedHashMap<>();
@@ -24,6 +34,10 @@ public class Schedule
          seatAvailability.put("RA" + seatNumber, true);
      }
   }
+
+    /**
+     * This method is used to print the schedule
+     */
     public void printSchedule() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("MMMM d, yyyy HH:mm:ss");
         String formattedDepartureSchedule = dateFormat.format(this.departureSchedule.getTime());
@@ -48,10 +62,19 @@ public class Schedule
         }
         System.out.println("\n");
     }
+
+
+    /**
+     * This method is used to check availability of bus seat
+     */
      public boolean isSeatAvailable(String seat) {
         Boolean availability = seatAvailability.get(seat);
     return seatAvailability.getOrDefault(seat, false);
 }
+
+    /**
+     * This method is used to check book seat
+     */
 
     public void bookSeat (String seat){
           this.seatAvailability.put(seat,false);

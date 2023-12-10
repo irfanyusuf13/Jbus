@@ -74,6 +74,10 @@ public class Algorithm {
         return count(it, pred);
     }
 
+    /**
+     * Count the number of elements in the iterator that satisfy the predicate
+     */
+
     public static <T> int count(Iterator<T> iterator, Predicate<T> pred) {
         int count = 0;
 

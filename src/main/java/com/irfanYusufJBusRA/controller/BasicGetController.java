@@ -7,6 +7,14 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
+
+/**.
+ * This interface is used to represent a basic get controller.
+ * @author Irfan Yusuf
+ * @param <T> The type of the object that will be handled by the controller
+ *           (e.g. Account, Bus, Payment, etc)
+ */
+
 public interface BasicGetController <T extends Serializable>{
 
 

@@ -13,6 +13,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
+/**.
+ * This class is used to handle  account requests from the client.
+ * @author Irfan Yusuf
+ */
 @RestController
 @RequestMapping("/account")
 public class AccountController implements BasicGetController<Account> {
@@ -24,6 +28,12 @@ public class AccountController implements BasicGetController<Account> {
     @GetMapping
     String index() { return "account page"; }
 
+
+    /**
+     * This method is used to handle /account/ Register requests from the client.
+     * if the name email and password matched with it regex an account will be created
+     * @author Irfan Yusuf
+     */
     @PostMapping("/register")
     BaseResponse<Account> register(
             @RequestParam String name,
@@ -68,6 +78,13 @@ public class AccountController implements BasicGetController<Account> {
 
     }
 
+
+    /**
+     * This method is used to handle /account/ Login requests from the client.
+     * if the email and password match with  the one created at the register
+     * then login succes
+     * @author Irfan Yusuf
+     */
     @PostMapping("/login")
     BaseResponse<Account>login
             (@RequestParam String email,
@@ -98,6 +115,13 @@ public class AccountController implements BasicGetController<Account> {
         return new BaseResponse<>(false, "login gagal dilakukan", null);
     }
 
+
+    /**
+     * This method is used to handle /account/ regiser renter requests from the client.
+     * if the companyname address and phoneNumber filled then an account will be a renter
+     * @author Irfan Yusuf
+     */
+
     @PostMapping ("/{id}/registerRenter")
     BaseResponse<Renter> registerRenter
             (@PathVariable int id,
@@ -113,6 +137,13 @@ public class AccountController implements BasicGetController<Account> {
         }
         return new BaseResponse<>(false, "register renter gagal dilakukan", null);
     }
+
+
+    /**
+     * This method is used to handle /account/ TopUP renter requests from the client.
+     * if the TopUp amount equals to positive number, then the amount will increase
+     * @author Irfan Yusuf
+     */
 
     @PostMapping("/{id}/topUp")
     BaseResponse<Double> topUp(@PathVariable int id, @RequestParam double amount)
